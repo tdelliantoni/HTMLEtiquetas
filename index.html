@@ -1,36 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTMLEtiquetas</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diseño y Desarrollo Web</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Diseño y Desarrollo web</h1>
-    </header>
-    
-    <section id="bibliografia">
-        <h2>Bibliografia</h2>
-        <a href="https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content" target="_blank">Click acá</a>
-    </section>
 
-    <section id="examenes">
-        <h2>Fechas de Exámenes</h2>
-        <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571944/View" target="_blank">Cronograma</a>
-    </section>
+  <header class="top-bar">
+    <p>Enlaces del menú</p>
+  </header>
 
-    <section id="actividades">
+  <main class="container">
+    <h1>Diseño y Desarrollo Web</h1>
+
+    <div class="grid">
+      <section class="box item1">
+        <h2>Fechas de exámenes</h2>
+        <p>
+          <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571944/View" target="_blank">
+            Ver cronograma en el campus virtual
+          </a>
+        </p>
+      </section>
+
+      <section class="box item2">
+        <h2>Bibliografía</h2>
+        <p>
+          <a href="https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content" target="_blank">
+            Estructura del contenido - MDN Web Docs
+          </a>
+        </p>
+      </section>
+
+      <section class="box item3">
         <h2>Actividades UVAs</h2>
         <ul>
-            <li>UVA1
-                <ul>
-                    <li><a href="https://tdelliantoni.github.io/IntroaHTML/" target="_blank">Actividad 1</a></li>
-                    <li><a href="https://tdelliantoni.github.io/HTMLEtiquetas/" target="_blank">Actividad 2</a></li>
-                </ul>
-            </li>
+          <li><strong>UVA1</strong>
+            <ul>
+              <li>
+                <a href="https://tdelliantoni.github.io/IntroaHTML/" target="_blank">Repositorio - Actividad 1</a> |
+                <a href="https://github.com/tdelliantoni/IntroaHTML" target="_blank">GitHub Page</a>
+              </li>
+              <li>
+                <a href="https://tdelliantoni.github.io/HTMLEtiquetas/" target="_blank">Repositorio - Actividad 2</a> |
+                <a href="https://github.com/tdelliantoni/HTMLEtiquetas" target="_blank">GitHub Page</a>
+              </li>
+            </ul>
+          </li>
         </ul>
-    </section>
-    
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    Curso: 11842 / Profesora: Patricia Carina Litovicius
+  </footer>
+
 </body>
 </html>
